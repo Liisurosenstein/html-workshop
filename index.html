@@ -73,5 +73,13 @@
 </body>   <script> let button = document.getElementById("surprise");
 button.addEventListener("click",function(){
     let body = document.body;
-})
+    if (body.style.background == "black") {
+        body.style.background = "green";
+        }
+    else{
+        body.style.background = "black";
+    }
+});
+</script>
+
 </html>
